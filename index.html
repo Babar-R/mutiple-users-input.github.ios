@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!-- <button onclick="">click</button> -->
+<body>
+</body>
+<script>
+let arraylength= parseInt(prompt("Enter the length of users"));
+let users=[];
+for(i=0; i< arraylength; i++){
+    let FirstName = prompt("Enter your First Name: ");
+    let LastName = prompt("Enter your Last Name: ");
+    let Age = parseInt(prompt("Enter your Age: ")); 
+
+    let user={
+        FirstName : FirstName,
+        LastName : LastName,
+        Age : Age
+    };
+    users.push(user);
+}
+console.log(users);
+</script>
+</html>
